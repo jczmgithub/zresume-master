@@ -1,0 +1,12 @@
+version: '2'
+services:
+  zresume:
+    build: .
+    ports:
+      - "8000:80"
+    environment:
+      PASSWORD: 5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8
+#    volumes:
+#      - ~/Resume/themes:/usr/html/user/themes
+#      - ~/Resume/pages:/usr/html/user/pages
+#      - ~/Resume/config:/usr/html/user/config
